@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Aarhus!</title>
+    <Style>
+        body {
+            background: linear-gradient(rgb(247, 208, 221), rgb(250, 173, 198)) ;
+        }
+        h1 {
+            text-align: center;
+            font-family: serif;
+            font-style: bold;
+            font-size: 55px;
+            line-height: normal;
+            text-shadow: 0 4px 4px rgb(218, 106, 143);
+        } 
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            font-style: italic;
+        }
+        hr {
+         border: 0.25px solid black;
+         opacity: 30%;
+         box-shadow: 0 4px 4px rgb(218, 106, 143);
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          text-align: center;
+      }
+      li {
+          display: inline;
+          margin: 0 60px;
+      }
+      .top {
+        color: rgb(218, 106, 143);
+      }
+      .top:hover {
+          font-weight: bold;
+          text-decoration: underline;
+      }
+      .motion {
+         color: rgb(218, 106, 143);
+      }
+      .motion:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      .must {
+          color: rgb(218, 106, 143);
+      }
+      .must:hover {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      h4 {
+          padding:0;
+          margin: 0 auto;
+          display: inline-block;
+      }
+      h3 {
+          text-align: center;
+          color:rgb(218, 106, 143);
+          padding-top: 20px;
+      }
+      div {
+          padding-top: 10px;
+          padding-bottom: 20px;
+      }
+      .div1 {
+            display:inline-block;
+      }
+      .div2 {
+          display: inline-block;
+         padding-bottom: 40px;
+      }
+      .div3 {
+          display: inline-block;
+         padding-bottom: 40px;
+      }
+      .div4 {
+          display: inline-block;
+         padding-bottom: 40px;
+      }
+     a {
+         text-decoration: none;
+         color:black;
+     }
+     a:hover {
+         color:white;
+         font-weight: bold;
+         transition: ease;
+         opacity: 80%;
+     }
+     button {
+         border-radius: 50px;
+         border: 0.5px solid black;
+         padding: 10px 10px;
+         box-shadow: 0px 4px 4px rgb(185, 152, 168);
+     }
+     button:hover {
+        background-color: rgb(202, 126, 202);
+        color: white;
+        font-weight: bold;
+        transition: ease-in-out;
+        opacity: 80%;
+        cursor: pointer;
+     }
+     :target {
+        background-color: rgb(255, 251, 0);
+        color: black;
+}
+figcaption {
+    padding-top:10px;
+    font-size: 15px;
+}
+    </Style>
+</head>
+<body>
+    <h1>
+        Welcome to Aarhus
+    </h1>
+    <h2>
+        "Smilets by"
+    </h2>
+    <hr>
+    <ul>
+        <li class="top">
+            Famous attractions 
+        </li>
+        <li class="motion">
+            History of the city 
+        </li>
+        <li class="must">
+            Tips from a local
+        </li>
+    </ul>
+    <map name="aarhus_map">
+
+        <area shape="circle" coords="202, 246, 30" onclick="portAarhus()">
+
+        <area shape="circle" coords="575, 302, 30" onclick="cityHall()">
+
+        <area shape="circle" coords="690, 359, 30" onclick="arosArt()">
+
+        <area shape="circle" coords="566, 166, 30" onclick="marseliesborg()">
+
+        <area shape="circle" coords="127, 414, 30" onclick="theCathedral()">
+
+        <area shape="circle" coords="132, 330, 30" onclick="dokkOne()">
+
+       </map>
+
+    <figure style="text-align:center;">
+
+        <img usemap="#aarhus_map" src=https://s3.amazonaws.com/shecodesio-production/uploads/files/000/004/700/original/Aarhus1.png?1612261166 width="800" />
+    
+        <figcaption style="text-align:center; font-weight: bolder;">Tap on the different attractions to discover Aarhus from above!</figcaption>
+    
+    </figure>
+    <h3>
+       The top five things you <em>need</em> to do while in Aarhus
+    </h3>
+    <p>
+        <strong>Rent a bike!</strong> <br>
+        <span>This one is an absolute must. Aarhus is finest when seen up close and the best way to do that? Just look at all the locals! Go for a ride through the streets and stop at the interesting boutiques and monuments. Or hit the pedals up and down the hills of Skåde or around the Brabrand lake.</span>
+        <br>
+        <br>
+        <strong>Get your camera out!</strong> <br>
+        Don't forget to capture all of the city's beauty. Aarhus is a picturesque city! Just take a look at these photos ⬇️
+    </p>
+    <div class="div1">
+        <img src="https://dokk1.dk/sites/default/files/styles/page_content_image/public/images/Smart_Aarhus_crop.jpg?itok=mHpQvPGM" width = "200" style="float:center; padding-bottom: 20px;" alt="">
+    </div>
+    <div class="div2">
+        <img src="https://files.guidedanmark.org/files/484/184473_Mllestien-Aarhus.jpg" width ="200" alt="">
+    </div>
+    <div class="div3">
+        <img src="https://images.adsttc.com/media/images/55a0/5b89/e58e/cea1/3600/0061/large_jpg/PORTADA_(c)_-_Aarhus_I_Billeder__1_.jpg?1436572534" width="170" alt="">
+    </div>
+    <div class="div4">
+        <img src="https://theculturetrip.com/wp-content/uploads/2017/11/1200px-20170710_aarhus_o_med_isbjerget_09_35432372583.jpg" width="200" alt="">
+    </div>
+<p>
+    <strong>Get some food!</strong> <br>
+    If you're a picnic person, Aarhus is the place. Parks such as The Botanical Garden, The City Hall Park and Mindeparken definitely have picnic-potential. You can also eat at Aarhus Street Food Market, where you'll also experience the "hygge" atmosphere.
+    <br>
+    <br>
+    <strong>Coffee and a stroll...</strong> <br>
+    <span>A favorite thing of mine is a stroll through the streets of the lively city. Go to the Latin Quarter and grab a coffee at one of the small cafés. Walk the narrow, cobbled streets down by the harbor and along side the river that runs through the city...</span> <br> 
+</p>
+<h5><strong>Bonus tip:</strong> You can rent a kayak or canoe and sail down the river!
+</h5>
+
+<div style= "text-align:center;"> 
+        <button>Book a guided tour</button>
+        <button>
+            <a href= "https://www.visitaarhus.com/node/1037">
+            Get more tips
+        </a>
+</div>
+<script>
+
+function portAarhus() {
+  alert("You clicked on the Port of Aarhus ⚓️  Fun fact: Port of Aarhus is the largest container port in the whole of Denmark!");
+}
+function cityHall() {
+  alert("You clicked on the City Hall 🏫  Did you know that the modern building designed by Arne Jakobsen is actually over 75 years old?👵🏼");
+}
+function arosArt() {
+  alert("You clicked on Aros Art Museum 🌈   Fun fact: Aros has nine floors of art exhibitions, making it one of the largest museums in Scandinavia! And on the top is a rainbow panorama view of the city!");
+}
+function marseliesborg() {
+  alert("You clicked on the Marseliesborg Forests 🍂  Did you know that this forest is one of the most frequently visited forests in Denmark?");
+}
+function theCathedral() {
+  alert("You clicked on Aarhus Cathedral 💒  The longest church in Denmark seats 1200 people and it has services every Sunday at 10am and 5pm 🛐");
+}
+function dokkOne() {
+  alert("You clicked on the library Dokk1 📚  This speciel architectural building is only 5-6 years old. In Danish its name can be pronounced both 'The Dock' and 'Dock One'.");
+}
+    function bookTable() {
+            let name = prompt("What is your name?");
+            let email = prompt("What is your email?");
+            alert ("Noted. We only have a few more questions, " + name + " 😁")
+            let date = prompt("What day of the week do you want to go on a tour?");
+            let quantity = prompt("How many people will you be?");
+            let hours = prompt("How many hours do you want your tour to be? (from 1-4 hours duration)");
+            let transport = prompt("Do you want to walk or bike?");
+            transport = transport.toLowerCase();
+            if (transport === "walk") {
+                alert ("Great, " + name + "! Can't wait to walk Aarhus thin with you🚶🏾 Your guided tour for " + quantity + " people is being customized at this moment!👩🏼‍💻 We'll be in touch!👋🏽");
+            } else {
+                alert ("Great, " + name + "! Can't wait to show you Aarhus on wheels🚴🏽 Your guided tour for " + quantity + " people is being customized at this moment!👩🏼‍💻 We'll be in touch!👋🏽");
+            }
+            }
+
+            let bookTableButton = document.querySelector("button");
+            bookTableButton.addEventListener("click", bookTable);
+</script>
+</body>
+</html>
